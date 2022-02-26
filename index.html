@@ -9,32 +9,83 @@
 
 </head>
 
-<body>
+<body class=' bg-gradient-to-r from-cyan-500 to-blue-500'>
     <!-- <header class="flex justify-between items-center h-20 border-b-2 border-black">
         <div class='m-5 font-bold'>ALSDAJKDLSAJDALSA</div>
 
     </header> -->
 
-    <div class='h-full bg-gradient-to-r from-cyan-500 to-blue-500 grid grid-cols-10'>
-        <div class='flex items-center  flex-col h-full col-span-2 bg-white'>
-            <image class='mx-auto mt-20 w-8/12 h-[200px] border border-black mb-5' src='images/profile_pic.jpeg'></image>
-            <span class='nav-bar-text'>About</span>
-            <span class='nav-bar-text'>Education</span>
-            <span class='nav-bar-text'>Skills</span>
-            <span class='nav-bar-text'>Experience</span>
+    <div class='h-full'>
+        <div class='flex items-center w-[300px] flex-col h-full fixed bg-white'>
+            <image class='mx-auto mt-20 w-8/12 h-[200px] border border-black mb-5' src='images/profile_pic.jpeg'>
+            </image>
+            <!-- <span class='nav-bar-text'><a href='#about'>About</a></span> -->
+            <span class='nav-bar-text'><a href='#education'>Education</a></span>
+            <span class='nav-bar-text'><a href='#skills'>Skills</a></span>
+            <span class='nav-bar-text'><a href='#experience'>Experience</a></span>
             <div class='m-5 mr-8 flex-col absolute bottom-0 space-x-3 justify-between'>
                 <a href='https://www.facebook.com/profile.php?id=100001151920145'><span
                         class='text-3xl text-gray-400 hover:text-black transition-colors duration-600'><i
                             class="fab fa-facebook"></i></span></a>
-                <span class='text-3xl text-gray-400 hover:text-black transition-colors duration-600'><i
-                        class="fab fa-linkedin"></i></span>
+                <a href='https://www.linkedin.com/in/junlim2804/'><span
+                        class='text-3xl text-gray-400 hover:text-black transition-colors duration-600'><i
+                            class="fab fa-linkedin"></i></span></a>
                 <span class='text-3xl text-gray-400 hover:text-black transition-colors duration-600'><i
                         class="fab fa-github "></i></span>
             </div>
         </div>
-        <div class='flex h-full col-span-8'>
-            <h1 class='uppercase m-10'>ALI ABU AKAU</h1>
+        <div class='ml-[300px]'>
+            <section id="about" class='flex flex-col h-full p-10 justify-center '>
+                <span class='uppercase text-4xl'>Lim Tau Jun</span>
+                <a href="mailto:junlim2804@gmail.com"><span class='text-white'>junlim2804@gmail.com</span></a>
+                <div class='pt-10 text-lg text-blacks'>
+                    Software Developer focus on new technology.
+                </div>
+            </section>
+            <section id="education" class='flex flex-col h-full p-10 space-y-10'></section>
+            <section id="skills" class='flex flex-col h-full p-10 space-y-10'></section>
+            <section id='experience' class='flex flex-col h-full p-10 space-y-10'>
+                <!-- 
+                <div class='p-10 rounded-lg bg-white grid grid-cols-2 justify-between justify-items-start'>
+                    <div class='text-xl font-bold'>Toga Limited Sdn Bhd</div>
+                    <div class='text-xl justify-self-end'>May 2021 - Present</div>
+                    <div class='col-span-2'>Web Developer</div>
+                    <div class='col-span-2 mt-3'>sadsadsa</div>
+                </div>
+                <div class='p-10 rounded-lg bg-white grid grid-cols-2 justify-between justify-items-start'>
+                    <div class='text-xl font-bold'>Webbytes Sdn Bhd</div>
+                    <div class='text-xl justify-self-end'>Feb 2020 - May 2021</div>
+                    <div class='col-span-2'>Backend Developer</div>
+                    <div class='col-span-2 mt-3'>sadsadsa</div>
+                </div> -->
+                <span class='text-5xl font-semibold mb-5'>Experience</span>
+                <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                    <li class="mb-10 ml-4">
+                        <div
+                            class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        </div>
+                        <time class="mb-1 text-xl font-normal leading-none" >May 2021</time>
+                        <h3 class="text-lg font-semibold  ">Toga Limited Sdn Bhd
+                        </h3>
+                        <p class="text-base font-normal ">All of the pages and
+                            components are first
+                            designed in Figma and we keep a parity between the two versions even as we update the
+                            project.</p>
+                    </li>
+                    <li class="ml-4">
+                        <div
+                            class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        </div>
+                        <time class="mb-1 text-xl font-normal leading-none">Feb 2020</time>
+                        <h3 class="text-lg font-semibold ">Webbytes Sdn Bhd</h3>
+                        <p class="text-base font-normal">Get started with dozens of web
+                            components and
+                            interactive elements built on top of Tailwind CSS.</p>
+                    </li>
+                </ol>
+            </section>
         </div>
+
     </div>
 </body>
 <style>
