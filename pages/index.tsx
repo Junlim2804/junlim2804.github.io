@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <main>
         <Script src="https://kit.fontawesome.com/be21ccce28.js" />
-        <div className="mx-auto">
+        <div className="mx-auto text-white">
 
-          <title></title>
+          <title>Resume</title>
           <div className='bg-gray-800 shadow-2xl max-w-screen-xl font-sans md:mx-auto'>
             <div
               className='hidden box-border w-auto px-4 md:flex items-center flex-col h-full fixed bg-slate-900'>
